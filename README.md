@@ -71,9 +71,9 @@
 | Name | Description | 
 |------------|----------| 
 | brandName | Brand name | 
-| logo | Logo image URL |
-| banner | Banner image URL |
-| deliveryETA | Delivery information, e.g. After 72 hours |
+| logo | Logo image URL | 
+| banner | Banner image URL | 
+| deliveryETA | Delivery information, e.g. After 72 hours | 
 | geoLocation | Location information | 
 
 ### Product
