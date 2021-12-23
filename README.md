@@ -68,6 +68,7 @@
 ## Properties
 
 ### Brand
+
 | Name | Description | 
 |------------|----------| 
 | brandName | Brand name | 
