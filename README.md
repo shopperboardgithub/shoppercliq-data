@@ -74,7 +74,7 @@
 | logo | Logo image URL |
 | banner | Banner image URL |
 | deliveryETA | Delivery information, e.g. After 72 hours |
-| geoLocation | Location information |
+| geoLocation | Location information | 
 
 ### Product
 
