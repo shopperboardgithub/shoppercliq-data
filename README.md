@@ -1,4 +1,4 @@
-# ShopperBoard Product 
+# ShopperCliq Product 
 
 - Retrieve a list of products.
 - Paginating results:  supports page size and page number, e.g. https://test.com/api/?limit=100&page=2
@@ -27,7 +27,7 @@
                 "price": 99,
                 "usualPrice": 109,
                 "image": "https://test.com/imageurl",
-                "desc": "",
+                "description": "",
                 "images": [
                     "https://test.com/imageurl1",
                     "https://test.com/imageurl2"
@@ -67,30 +67,25 @@
 
 ## Properties
 
+### Brand
+| Name | Description | 
+|------------|----------| 
+| brandName | Brand name | 
+| logo | Logo image URL |
+| banner | Banner image URL |
+| deliveryETA | Delivery information, e.g. After 72 hours |
+| geoLocation | Location information |
+
 ### Product
 
 | Name | Description | 
 |------------|----------| 
-| id | An unique identifier for product, number or string. |
-| title | Product name |
-| url | Product url |
+| id | An unique identifier for product |
+| name | Product name |
 | price | Product selling price. |
 | usualPrice | Product usual price. |
-| published_at | The date and time when the product was published. optional. |
 | images | A list of product image |
-| description | A list of description for the product, supports HTML formatting. Supports multiple type, e.g. shipping description, size description. |
-| variants | The Product resource will have a variant for every possible combination of its options. Each product have a variant at least. |
-| options | The custom product properties. For example, Size, Color, and Material. Product variants are made of up combinations of option values.|
- 
-### Variant
+| description | A list of description for the product, supports HTML formatting. Supports multiple type, e.g. shipping description, size description. | 
 
-| Name | Description | 
-|------------|----------| 
-| id | An unique identifier for product, number or string. |
-| sku | Product sku. |
-| price | Product selling price. |
-| usualPrice | Product usual price. |
-| grams | The weight of the product variant in grams. |  
-| images | A list of product image, optional. |
-| quantity | Product inventory |
-| option | The custom product properties. |
+
+ 
