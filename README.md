@@ -46,12 +46,37 @@
                                 "description": "",
                                 "skuNumber": "SH5310B214",
                                 "inventory": 999,
+                                "options": [
+                                    {
+                                        "name": "Color",
+                                        "position": 1,
+                                        "values": [
+                                            "Silver",
+                                            "Black"
+                                        ]
+                                    },
+                                    {
+                                        "name": "Size",
+                                        "position": 2,
+                                        "values": [
+                                            "35",
+                                            "36",
+                                            "37",
+                                            "38",
+                                            "39"
+                                        ]
+                                    }
+                                ],
                                 "variants": [
                                     {
                                         "name": "",
                                         "price": 199,
                                         "usualPrice": 199,
-                                        "image": "https://test.com/imageurl"
+                                        "image": "https://test.com/imageurl",
+                                        "option": {
+                                            "Color": "Silver",
+                                            "Size": "Black"
+                                        }
                                     }
                                 ]
                             }
@@ -76,6 +101,7 @@
 | banner | Banner image URL | 
 | deliveryETA | Delivery information, e.g. After 72 hours | 
 | geoLocation | Location information | 
+| options | The custom product properties. For example, Size, Color, and Material. Product variants are made of up combinations of option values. | 
 
 ### Product
 
@@ -87,6 +113,8 @@
 | usualPrice | Product usual price. |
 | images | A list of product image |
 | description | A list of description for the product, supports HTML formatting. Supports multiple type, e.g. shipping description, size description. | 
+| option | The custom product properties. | 
+
 
 
  
