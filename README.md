@@ -3,6 +3,10 @@
 - Retrieve a list of products.
 - Paginating results:  supports page size and page number, e.g. https://test.com/api/?limit=100&page=2
 
+## Brand List
+
+- Return brand list with products
+
 ```JSON
 [
     {
@@ -46,37 +50,29 @@
                                 "description": "",
                                 "skuNumber": "SH5310B214",
                                 "inventory": 999,
-                                "options": [
+                                "option": [
                                     {
-                                        "name": "Color",
-                                        "position": 1,
-                                        "values": [
-                                            "Silver",
-                                            "Black"
-                                        ]
+                                        "name": "Testing",
+                                        "price": 0
                                     },
                                     {
-                                        "name": "Size",
-                                        "position": 2,
-                                        "values": [
-                                            "35",
-                                            "36",
-                                            "37",
-                                            "38",
-                                            "39"
-                                        ]
-                                    }
-                                ],
+                                        "name": "Sub 1",
+                                        "price": 12.84
+                                    },
+                                    {
+                                        "name": "test 2",
+                                        "price": 0
+                                    },
+                                    {
+                                        "name": "sub 2",
+                                        "price": 120
+                                    }],
                                 "variants": [
                                     {
                                         "name": "",
                                         "price": 199,
                                         "usualPrice": 199,
-                                        "image": "https://test.com/imageurl",
-                                        "option": {
-                                            "Color": "Silver",
-                                            "Size": "Black"
-                                        }
+                                        "image": "https://test.com/imageurl"                                       
                                     }
                                 ]
                             }
@@ -89,6 +85,109 @@
 ]
 ```
 
+## Product Information
+
+- Return single product information by product id
+
+```JSON
+{
+    "id": 98345558566,
+    "name": "Velvet Double Buckle Sling Back Heel",
+    "price": 99,
+    "usualPrice": 109,
+    "image": "https://test.com/imageurl",
+    "description": "",
+    "images": [
+        "https://test.com/imageurl1",
+        "https://test.com/imageurl2"
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "Set Menu",
+            "skuList": [
+                {
+                    "id": 3434353443,
+                    "name": "36",
+                    "price": 199,
+                    "usualPrice": 199,
+                    "image": "https://test.com/imageurl2",
+                    "description": "",
+                    "skuNumber": "SH5310B214",
+                    "inventory": 999,
+                    "option": [
+                        {
+                            "name": "Testing",
+                            "price": 0
+                        },
+                        {
+                            "name": "Sub 1",
+                            "price": 12.84
+                        },
+                        {
+                            "name": "test 2",
+                            "price": 0
+                        },
+                        {
+                            "name": "sub 2",
+                            "price": 120
+                        }],
+                    "variants": [
+                        {
+                            "name": "",
+                            "price": 199,
+                            "usualPrice": 199,
+                            "image": "https://test.com/imageurl"                                       
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
+
+## SKU Information
+
+- Return single sku information by sku number
+
+```JSON
+{
+    "id": 3434353443,
+    "name": "36",
+    "price": 199,
+    "usualPrice": 199,
+    "image": "https://test.com/imageurl2",
+    "description": "",
+    "skuNumber": "SH5310B214",
+    "inventory": 999,
+    "option": [
+        {
+            "name": "Testing",
+            "price": 0
+        },
+        {
+            "name": "Sub 1",
+            "price": 12.84
+        },
+        {
+            "name": "test 2",
+            "price": 0
+        },
+        {
+            "name": "sub 2",
+            "price": 120
+        }],
+    "variants": [
+        {
+            "name": "",
+            "price": 199,
+            "usualPrice": 199,
+            "image": "https://test.com/imageurl"                                       
+        }
+    ]
+}
+```
 
 ## Properties
 
