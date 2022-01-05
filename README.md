@@ -1,7 +1,8 @@
 # ShopperCliq Product 
 
-- Retrieve a list of products.
-- Paginating results:  supports page size and page number, e.g. https://test.com/api/?limit=100&page=2
+- Retrieve Brand and Product information
+- Total 3 apis: Brand List, Product Information and SKU Information
+- Paginating results: supports page size and page number, e.g. https://test.com/api/?limit=100&page=2
 
 ## Brand List
 
