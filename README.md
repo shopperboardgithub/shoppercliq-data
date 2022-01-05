@@ -216,7 +216,6 @@
 | banner | Banner image URL | 
 | deliveryETA | Delivery information, e.g. After 72 hours | 
 | geoLocation | Location information | 
-| options | The custom product properties. For example, Size, Color, and Material. Product variants are made of up combinations of option values. | 
 
 ### Product
 
@@ -228,7 +227,6 @@
 | usualPrice | Product usual price. |
 | images | A list of product image |
 | description | A list of description for the product, supports HTML formatting. Supports multiple type, e.g. shipping description, size description. | 
-| option | The custom product properties. | 
 
 
 
