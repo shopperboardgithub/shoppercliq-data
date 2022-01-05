@@ -50,7 +50,7 @@
                                 "description": "",
                                 "skuNumber": "SH5310B214",
                                 "inventory": 999,
-                                "option": [
+                                "additions": [
                                     {
                                         "name": "Testing",
                                         "price": 0
@@ -115,7 +115,7 @@
                     "description": "",
                     "skuNumber": "SH5310B214",
                     "inventory": 999,
-                    "option": [
+                    "additions": [
                         {
                             "name": "Testing",
                             "price": 0
@@ -161,7 +161,7 @@
     "description": "",
     "skuNumber": "SH5310B214",
     "inventory": 999,
-    "option": [
+    "additions": [
         {
             "name": "Testing",
             "price": 0
