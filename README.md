@@ -53,23 +53,28 @@
                                 "inventory": 999,
                                 "additions": [
                                     {
+                                        "id": 123451,
                                         "name": "Testing",
                                         "price": 0
                                     },
                                     {
+                                        "id": 123452,
                                         "name": "Sub 1",
                                         "price": 12.84
                                     },
                                     {
+                                        "id": 123453,
                                         "name": "test 2",
                                         "price": 0
                                     },
                                     {
+                                        "id": 123454,
                                         "name": "sub 2",
                                         "price": 120
                                     }],
                                 "variants": [
                                     {
+                                        "id": 8989,
                                         "name": "",
                                         "price": 199,
                                         "usualPrice": 199,
@@ -118,23 +123,28 @@
                     "inventory": 999,
                     "additions": [
                         {
+                            "id": 123451,
                             "name": "Testing",
                             "price": 0
                         },
                         {
+                            "id": 123452,
                             "name": "Sub 1",
                             "price": 12.84
                         },
                         {
+                            "id": 123453,
                             "name": "test 2",
                             "price": 0
                         },
                         {
+                            "id": 123454,
                             "name": "sub 2",
                             "price": 120
                         }],
                     "variants": [
                         {
+                            "id": 8989,
                             "name": "",
                             "price": 199,
                             "usualPrice": 199,
@@ -164,23 +174,28 @@
     "inventory": 999,
     "additions": [
         {
+            "id": 123451,
             "name": "Testing",
             "price": 0
         },
         {
+            "id": 123452,
             "name": "Sub 1",
             "price": 12.84
         },
         {
+            "id": 123453,
             "name": "test 2",
             "price": 0
         },
         {
+            "id": 123454,
             "name": "sub 2",
             "price": 120
         }],
     "variants": [
         {
+            "id": 8989,
             "name": "",
             "price": 199,
             "usualPrice": 199,
