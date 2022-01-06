@@ -11,6 +11,7 @@
 ```JSON
 [
     {
+        "brandId": "",
         "brandName": "",
         "companyName": "",
         "description": "",
@@ -27,7 +28,7 @@
         },
         "productList": [
             {
-                "id": 98345558566,
+                "id": "98345558566",
                 "name": "Velvet Double Buckle Sling Back Heel",
                 "price": 99,
                 "usualPrice": 109,
@@ -39,11 +40,11 @@
                 ],
                 "categories": [
                     {
-                        "id": 0,
+                        "id": "56546",
                         "name": "Set Menu",
                         "skuList": [
                             {
-                                "id": 3434353443,
+                                "id": "3434353443",
                                 "name": "name123",
                                 "price": 199,
                                 "usualPrice": 199,
@@ -55,6 +56,7 @@
                                     {
                                         "name": "Choice of Soft Drink / Slushie",
                                         "maxSelect": 1,
+                                        "minSelect": 1,
                                         "choices": [
                                             { "name": "Coke", "priceAdjustment": 0.00 },
                                             { "name" : "Coke Zero", "priceAdjustment": 0.00 },
@@ -65,6 +67,7 @@
                                     {
                                         "name": "Choice of Fries",
                                         "maxSelect": 1,
+                                        "minSelect": 1,
                                         "choices": [
                                             { "name": "Regular fries", "priceAdjustment": 0.00 },
                                             { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
@@ -74,6 +77,7 @@
                                     {
                                         "name": "Extra Beef Patty",
                                         "maxSelect": 1,
+                                        "minSelect": 1,
                                         "choices": [
                                             { "name": "Add one beef patty", "priceAdjustment": 8.00 },
                                             { "name": "Add two beef patties", "priceAdjustment": 16.00 }
@@ -82,6 +86,7 @@
                                     {
                                         "name": "Extra Cheese",
                                         "maxSelect": 1,
+                                        "minSelect": 1,
                                         "choices": [
                                             { "name": "Add one cheese", "priceAdjustment": 1.00 },
                                             { "name": "Add two cheese", "priceAdjustment": 2.00 }
@@ -90,6 +95,7 @@
                                     {
                                         "name": "Extra Tomato",
                                         "maxSelect": 1,
+                                        "minSelect": 1,
                                         "choices": [
                                             { "name": "Add one tomato", "priceAdjustment": 8.00 },
                                             { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
@@ -98,7 +104,7 @@
                                 ],
                                 "variants": [
                                     {
-                                        "id": 8989,
+                                        "id": "8989",
                                         "name": "name123 - White (Medium)",
                                         "price": 199,
                                         "usualPrice": 199,
@@ -126,7 +132,7 @@
 
 ```JSON
 {
-    "id": 98345558566,
+    "id": "98345558566",
     "name": "Velvet Double Buckle Sling Back Heel",
     "price": 99,
     "usualPrice": 109,
@@ -138,11 +144,11 @@
     ],
     "categories": [
         {
-            "id": 0,
+            "id": "66676",
             "name": "Set Menu",
             "skuList": [
                 {
-                    "id": 3434353443,
+                    "id": "3434353443",
                     "name": "name123",
                     "price": 199,
                     "usualPrice": 199,
@@ -154,6 +160,7 @@
                         {
                             "name": "Choice of Soft Drink / Slushie",
                             "maxSelect": 1,
+                            "minSelect": 1,
                             "choices": [
                                 { "name": "Coke", "priceAdjustment": 0.00 },
                                 { "name" : "Coke Zero", "priceAdjustment": 0.00 },
@@ -164,6 +171,7 @@
                         {
                             "name": "Choice of Fries",
                             "maxSelect": 1,
+                            "minSelect": 1,
                             "choices": [
                                 { "name": "Regular fries", "priceAdjustment": 0.00 },
                                 { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
@@ -173,6 +181,7 @@
                         {
                             "name": "Extra Beef Patty",
                             "maxSelect": 1,
+                            "minSelect": 1,
                             "choices": [
                                 { "name": "Add one beef patty", "priceAdjustment": 8.00 },
                                 { "name": "Add two beef patties", "priceAdjustment": 16.00 }
@@ -181,6 +190,7 @@
                         {
                             "name": "Extra Cheese",
                             "maxSelect": 1,
+                            "minSelect": 1,
                             "choices": [
                                 { "name": "Add one cheese", "priceAdjustment": 1.00 },
                                 { "name": "Add two cheese", "priceAdjustment": 2.00 }
@@ -189,6 +199,7 @@
                         {
                             "name": "Extra Tomato",
                             "maxSelect": 1,
+                            "minSelect": 1,
                             "choices": [
                                 { "name": "Add one tomato", "priceAdjustment": 8.00 },
                                 { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
@@ -197,7 +208,7 @@
                     ],
                     "variants": [
                         {
-                            "id": 8989,
+                            "id": "8989",
                             "name": "name123 - White (Medium)",
                             "price": 199,
                             "usualPrice": 199,
@@ -222,7 +233,7 @@
 
 ```JSON
 {
-    "id": 3434353443,
+    "id": "3434353443",
     "name": "name123",
     "price": 199,
     "usualPrice": 199,
@@ -234,6 +245,7 @@
         {
             "name": "Choice of Soft Drink / Slushie",
             "maxSelect": 1,
+            "minSelect": 1,
             "choices": [
                 { "name": "Coke", "priceAdjustment": 0.00 },
                 { "name" : "Coke Zero", "priceAdjustment": 0.00 },
@@ -244,6 +256,7 @@
         {
             "name": "Choice of Fries",
             "maxSelect": 1,
+            "minSelect": 1,
             "choices": [
                 { "name": "Regular fries", "priceAdjustment": 0.00 },
                 { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
@@ -253,6 +266,7 @@
         {
             "name": "Extra Beef Patty",
             "maxSelect": 1,
+            "minSelect": 1,
             "choices": [
                 { "name": "Add one beef patty", "priceAdjustment": 8.00 },
                 { "name": "Add two beef patties", "priceAdjustment": 16.00 }
@@ -261,6 +275,7 @@
         {
             "name": "Extra Cheese",
             "maxSelect": 1,
+            "minSelect": 1,
             "choices": [
                 { "name": "Add one cheese", "priceAdjustment": 1.00 },
                 { "name": "Add two cheese", "priceAdjustment": 2.00 }
@@ -269,6 +284,7 @@
         {
             "name": "Extra Tomato",
             "maxSelect": 1,
+            "minSelect": 1,
             "choices": [
                 { "name": "Add one tomato", "priceAdjustment": 8.00 },
                 { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
@@ -277,7 +293,7 @@
     ],
     "variants": [
         {
-            "id": 8989,
+            "id": "8989",
             "name": "name123 - White (Medium)",
             "price": 199,
             "usualPrice": 199,
