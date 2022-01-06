@@ -54,51 +54,56 @@
                                 "inventory": 999,
                                 "addOns": [
                                     {
+                                        "id": "",
                                         "name": "Choice of Soft Drink / Slushie",
                                         "maxSelect": 1,
                                         "minSelect": 1,
                                         "choices": [
-                                            { "name": "Coke", "priceAdjustment": 0.00 },
-                                            { "name" : "Coke Zero", "priceAdjustment": 0.00 },
-                                            { "name": "100 Plus", "priceAdjustment": 0.00 },
-                                            { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+                                            { "id": "", "name": "Coke", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                            { "id": "", "name" : "Coke Zero", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                            { "id": "", "name": "100 Plus", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                            { "id": "", "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00, "maxSelect": 1 }
                                         ]
                                     },
                                     {
+                                        "id": "",
                                         "name": "Choice of Fries",
                                         "maxSelect": 1,
                                         "minSelect": 1,
                                         "choices": [
-                                            { "name": "Regular fries", "priceAdjustment": 0.00 },
-                                            { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
-                                            { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+                                            { "id": "", "name": "Regular fries", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                            { "id": "", "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00, "maxSelect": 1 },
+                                            { "id": "", "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50, "maxSelect": 1 }
                                         ]
                                     },
                                     {
+                                        "id": "", 
                                         "name": "Extra Beef Patty",
                                         "maxSelect": 1,
                                         "minSelect": 1,
                                         "choices": [
-                                            { "name": "Add one beef patty", "priceAdjustment": 8.00 },
-                                            { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+                                            { "id": "", "name": "Add one beef patty", "priceAdjustment": 8.00, "maxSelect": 1 },
+                                            { "id": "", "name": "Add two beef patties", "priceAdjustment": 16.00, "maxSelect": 1 }
                                         ]
                                     },
                                     {
+                                        "id": "", 
                                         "name": "Extra Cheese",
                                         "maxSelect": 1,
                                         "minSelect": 1,
                                         "choices": [
-                                            { "name": "Add one cheese", "priceAdjustment": 1.00 },
-                                            { "name": "Add two cheese", "priceAdjustment": 2.00 }
+                                            { "id": "", "name": "Add one cheese", "priceAdjustment": 1.00, "maxSelect": 1 },
+                                            { "id": "", "name": "Add two cheese", "priceAdjustment": 2.00, "maxSelect": 1 }
                                         ]
                                     },
                                     {
+                                        "id": "", 
                                         "name": "Extra Tomato",
                                         "maxSelect": 1,
                                         "minSelect": 1,
                                         "choices": [
-                                            { "name": "Add one tomato", "priceAdjustment": 8.00 },
-                                            { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+                                            { "id": "", "name": "Add one tomato", "priceAdjustment": 8.00, "maxSelect": 1 },
+                                            { "id": "", "name": "Add two tomatoes", "priceAdjustment": 16.00, "maxSelect": 1 }
                                         ]
                                     }
                                 ],
@@ -110,8 +115,20 @@
                                         "usualPrice": 199,
                                         "image": "https://test.com/imageurl",
                                         "options": [
-                                            { "name": "Color", "choice": "White" },
-                                            { "name": "Size", "choice": "Medium" }
+                                            { "name": "Color", "value": "White" },
+                                            { "name": "Size", "value": "Medium" }
+                                        ],
+                                        "inventory": 999                                  
+                                    },
+                                    {
+                                        "id": "8988",
+                                        "name": "name123 - Red (Small)",
+                                        "price": 199,
+                                        "usualPrice": 199,
+                                        "image": "https://test.com/imageurl",
+                                        "options": [
+                                            { "name": "Color", "value": "Red" },
+                                            { "name": "Size", "value": "Small" }
                                         ],
                                         "inventory": 999                                  
                                     }
@@ -158,51 +175,56 @@
                     "inventory": 999,
                     "addOns": [
                         {
+                            "id": "",
                             "name": "Choice of Soft Drink / Slushie",
                             "maxSelect": 1,
                             "minSelect": 1,
                             "choices": [
-                                { "name": "Coke", "priceAdjustment": 0.00 },
-                                { "name" : "Coke Zero", "priceAdjustment": 0.00 },
-                                { "name": "100 Plus", "priceAdjustment": 0.00 },
-                                { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+                                { "id": "", "name": "Coke", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                { "id": "", "name" : "Coke Zero", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                { "id": "", "name": "100 Plus", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                { "id": "", "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00, "maxSelect": 1 }
                             ]
                         },
                         {
+                            "id": "",
                             "name": "Choice of Fries",
                             "maxSelect": 1,
                             "minSelect": 1,
                             "choices": [
-                                { "name": "Regular fries", "priceAdjustment": 0.00 },
-                                { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
-                                { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+                                { "id": "", "name": "Regular fries", "priceAdjustment": 0.00, "maxSelect": 1 },
+                                { "id": "", "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00, "maxSelect": 1 },
+                                { "id": "", "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50, "maxSelect": 1 }
                             ]
                         },
                         {
+                            "id": "", 
                             "name": "Extra Beef Patty",
                             "maxSelect": 1,
                             "minSelect": 1,
                             "choices": [
-                                { "name": "Add one beef patty", "priceAdjustment": 8.00 },
-                                { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+                                { "id": "", "name": "Add one beef patty", "priceAdjustment": 8.00, "maxSelect": 1 },
+                                { "id": "", "name": "Add two beef patties", "priceAdjustment": 16.00, "maxSelect": 1 }
                             ]
                         },
                         {
+                            "id": "", 
                             "name": "Extra Cheese",
                             "maxSelect": 1,
                             "minSelect": 1,
                             "choices": [
-                                { "name": "Add one cheese", "priceAdjustment": 1.00 },
-                                { "name": "Add two cheese", "priceAdjustment": 2.00 }
+                                { "id": "", "name": "Add one cheese", "priceAdjustment": 1.00, "maxSelect": 1 },
+                                { "id": "", "name": "Add two cheese", "priceAdjustment": 2.00, "maxSelect": 1 }
                             ]
                         },
                         {
+                            "id": "", 
                             "name": "Extra Tomato",
                             "maxSelect": 1,
                             "minSelect": 1,
                             "choices": [
-                                { "name": "Add one tomato", "priceAdjustment": 8.00 },
-                                { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+                                { "id": "", "name": "Add one tomato", "priceAdjustment": 8.00, "maxSelect": 1 },
+                                { "id": "", "name": "Add two tomatoes", "priceAdjustment": 16.00, "maxSelect": 1 }
                             ]
                         }
                     ],
@@ -214,8 +236,20 @@
                             "usualPrice": 199,
                             "image": "https://test.com/imageurl",
                             "options": [
-                                { "name": "Color", "choice": "White" },
-                                { "name": "Size", "choice": "Medium" }
+                                { "name": "Color", "value": "White" },
+                                { "name": "Size", "value": "Medium" }
+                            ],
+                            "inventory": 999                                  
+                        },
+                        {
+                            "id": "8988",
+                            "name": "name123 - Red (Small)",
+                            "price": 199,
+                            "usualPrice": 199,
+                            "image": "https://test.com/imageurl",
+                            "options": [
+                                { "name": "Color", "value": "Red" },
+                                { "name": "Size", "value": "Small" }
                             ],
                             "inventory": 999                                  
                         }
@@ -243,51 +277,56 @@
     "inventory": 999,
     "addOns": [
         {
+            "id": "",
             "name": "Choice of Soft Drink / Slushie",
             "maxSelect": 1,
             "minSelect": 1,
             "choices": [
-                { "name": "Coke", "priceAdjustment": 0.00 },
-                { "name" : "Coke Zero", "priceAdjustment": 0.00 },
-                { "name": "100 Plus", "priceAdjustment": 0.00 },
-                { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+                { "id": "", "name": "Coke", "priceAdjustment": 0.00, "maxSelect": 1 },
+                { "id": "", "name" : "Coke Zero", "priceAdjustment": 0.00, "maxSelect": 1 },
+                { "id": "", "name": "100 Plus", "priceAdjustment": 0.00, "maxSelect": 1 },
+                { "id": "", "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00, "maxSelect": 1 }
             ]
         },
         {
+            "id": "",
             "name": "Choice of Fries",
             "maxSelect": 1,
             "minSelect": 1,
             "choices": [
-                { "name": "Regular fries", "priceAdjustment": 0.00 },
-                { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
-                { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+                { "id": "", "name": "Regular fries", "priceAdjustment": 0.00, "maxSelect": 1 },
+                { "id": "", "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00, "maxSelect": 1 },
+                { "id": "", "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50, "maxSelect": 1 }
             ]
         },
         {
+            "id": "", 
             "name": "Extra Beef Patty",
             "maxSelect": 1,
             "minSelect": 1,
             "choices": [
-                { "name": "Add one beef patty", "priceAdjustment": 8.00 },
-                { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+                { "id": "", "name": "Add one beef patty", "priceAdjustment": 8.00, "maxSelect": 1 },
+                { "id": "", "name": "Add two beef patties", "priceAdjustment": 16.00, "maxSelect": 1 }
             ]
         },
         {
+            "id": "", 
             "name": "Extra Cheese",
             "maxSelect": 1,
             "minSelect": 1,
             "choices": [
-                { "name": "Add one cheese", "priceAdjustment": 1.00 },
-                { "name": "Add two cheese", "priceAdjustment": 2.00 }
+                { "id": "", "name": "Add one cheese", "priceAdjustment": 1.00, "maxSelect": 1 },
+                { "id": "", "name": "Add two cheese", "priceAdjustment": 2.00, "maxSelect": 1 }
             ]
         },
         {
+            "id": "", 
             "name": "Extra Tomato",
             "maxSelect": 1,
             "minSelect": 1,
             "choices": [
-                { "name": "Add one tomato", "priceAdjustment": 8.00 },
-                { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+                { "id": "", "name": "Add one tomato", "priceAdjustment": 8.00, "maxSelect": 1 },
+                { "id": "", "name": "Add two tomatoes", "priceAdjustment": 16.00, "maxSelect": 1 }
             ]
         }
     ],
@@ -299,8 +338,20 @@
             "usualPrice": 199,
             "image": "https://test.com/imageurl",
             "options": [
-                { "name": "Color", "choice": "White" },
-                { "name": "Size", "choice": "Medium" }
+                { "name": "Color", "value": "White" },
+                { "name": "Size", "value": "Medium" }
+            ],
+            "inventory": 999                                  
+        },
+        {
+            "id": "8988",
+            "name": "name123 - Red (Small)",
+            "price": 199,
+            "usualPrice": 199,
+            "image": "https://test.com/imageurl",
+            "options": [
+                { "name": "Color", "value": "Red" },
+                { "name": "Size", "value": "Small" }
             ],
             "inventory": 999                                  
         }
