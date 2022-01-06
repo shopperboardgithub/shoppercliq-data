@@ -44,41 +44,70 @@
                         "skuList": [
                             {
                                 "id": 3434353443,
-                                "name": "36",
+                                "name": "name123",
                                 "price": 199,
                                 "usualPrice": 199,
                                 "image": "https://test.com/imageurl2",
                                 "description": "",
                                 "skuNumber": "SH5310B214",
                                 "inventory": 999,
-                                "additions": [
+                                "addOns": [
                                     {
-                                        "id": 123451,
-                                        "name": "Testing",
-                                        "price": 0
+                                        "name": "Choice of Soft Drink / Slushie",
+                                        "maxSelect": 1,
+                                        "choices": [
+                                            { "name": "Coke", "priceAdjustment": 0.00 },
+                                            { "name" : "Coke Zero", "priceAdjustment": 0.00 },
+                                            { "name": "100 Plus", "priceAdjustment": 0.00 },
+                                            { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+                                        ]
                                     },
                                     {
-                                        "id": 123452,
-                                        "name": "Sub 1",
-                                        "price": 12.84
+                                        "name": "Choice of Fries",
+                                        "maxSelect": 1,
+                                        "choices": [
+                                            { "name": "Regular fries", "priceAdjustment": 0.00 },
+                                            { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
+                                            { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+                                        ]
                                     },
                                     {
-                                        "id": 123453,
-                                        "name": "test 2",
-                                        "price": 0
+                                        "name": "Extra Beef Patty",
+                                        "maxSelect": 1,
+                                        "choices": [
+                                            { "name": "Add one beef patty", "priceAdjustment": 8.00 },
+                                            { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+                                        ]
                                     },
                                     {
-                                        "id": 123454,
-                                        "name": "sub 2",
-                                        "price": 120
-                                    }],
+                                        "name": "Extra Cheese",
+                                        "maxSelect": 1,
+                                        "choices": [
+                                            { "name": "Add one cheese", "priceAdjustment": 1.00 },
+                                            { "name": "Add two cheese", "priceAdjustment": 2.00 }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Extra Tomato",
+                                        "maxSelect": 1,
+                                        "choices": [
+                                            { "name": "Add one tomato", "priceAdjustment": 8.00 },
+                                            { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+                                        ]
+                                    }
+                                ],
                                 "variants": [
                                     {
                                         "id": 8989,
-                                        "name": "",
+                                        "name": "name123 - White (Medium)",
                                         "price": 199,
                                         "usualPrice": 199,
-                                        "image": "https://test.com/imageurl"                                       
+                                        "image": "https://test.com/imageurl",
+                                        "options": [
+                                            { "name": "Color", "choice": "White" },
+                                            { "name": "Size", "choice": "Medium" }
+                                        ],
+                                        "inventory": 999                                  
                                     }
                                 ]
                             }
@@ -114,41 +143,70 @@
             "skuList": [
                 {
                     "id": 3434353443,
-                    "name": "36",
+                    "name": "name123",
                     "price": 199,
                     "usualPrice": 199,
                     "image": "https://test.com/imageurl2",
                     "description": "",
                     "skuNumber": "SH5310B214",
                     "inventory": 999,
-                    "additions": [
+                    "addOns": [
                         {
-                            "id": 123451,
-                            "name": "Testing",
-                            "price": 0
+                            "name": "Choice of Soft Drink / Slushie",
+                            "maxSelect": 1,
+                            "choices": [
+                                { "name": "Coke", "priceAdjustment": 0.00 },
+                                { "name" : "Coke Zero", "priceAdjustment": 0.00 },
+                                { "name": "100 Plus", "priceAdjustment": 0.00 },
+                                { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+                            ]
                         },
                         {
-                            "id": 123452,
-                            "name": "Sub 1",
-                            "price": 12.84
+                            "name": "Choice of Fries",
+                            "maxSelect": 1,
+                            "choices": [
+                                { "name": "Regular fries", "priceAdjustment": 0.00 },
+                                { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
+                                { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+                            ]
                         },
                         {
-                            "id": 123453,
-                            "name": "test 2",
-                            "price": 0
+                            "name": "Extra Beef Patty",
+                            "maxSelect": 1,
+                            "choices": [
+                                { "name": "Add one beef patty", "priceAdjustment": 8.00 },
+                                { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+                            ]
                         },
                         {
-                            "id": 123454,
-                            "name": "sub 2",
-                            "price": 120
-                        }],
+                            "name": "Extra Cheese",
+                            "maxSelect": 1,
+                            "choices": [
+                                { "name": "Add one cheese", "priceAdjustment": 1.00 },
+                                { "name": "Add two cheese", "priceAdjustment": 2.00 }
+                            ]
+                        },
+                        {
+                            "name": "Extra Tomato",
+                            "maxSelect": 1,
+                            "choices": [
+                                { "name": "Add one tomato", "priceAdjustment": 8.00 },
+                                { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+                            ]
+                        }
+                    ],
                     "variants": [
                         {
                             "id": 8989,
-                            "name": "",
+                            "name": "name123 - White (Medium)",
                             "price": 199,
                             "usualPrice": 199,
-                            "image": "https://test.com/imageurl"                                       
+                            "image": "https://test.com/imageurl",
+                            "options": [
+                                { "name": "Color", "choice": "White" },
+                                { "name": "Size", "choice": "Medium" }
+                            ],
+                            "inventory": 999                                  
                         }
                     ]
                 }
@@ -165,41 +223,70 @@
 ```JSON
 {
     "id": 3434353443,
-    "name": "36",
+    "name": "name123",
     "price": 199,
     "usualPrice": 199,
     "image": "https://test.com/imageurl2",
     "description": "",
     "skuNumber": "SH5310B214",
     "inventory": 999,
-    "additions": [
+    "addOns": [
         {
-            "id": 123451,
-            "name": "Testing",
-            "price": 0
+            "name": "Choice of Soft Drink / Slushie",
+            "maxSelect": 1,
+            "choices": [
+                { "name": "Coke", "priceAdjustment": 0.00 },
+                { "name" : "Coke Zero", "priceAdjustment": 0.00 },
+                { "name": "100 Plus", "priceAdjustment": 0.00 },
+                { "name" : "OFC Golden Lime Slushie", "priceAdjustment": 0.00 }
+            ]
         },
         {
-            "id": 123452,
-            "name": "Sub 1",
-            "price": 12.84
+            "name": "Choice of Fries",
+            "maxSelect": 1,
+            "choices": [
+                { "name": "Regular fries", "priceAdjustment": 0.00 },
+                { "name": "Upgrade to Cheese fries", "priceAdjustment": 2.00 },
+                { "name" : "Upgrade to Truffle fries", "priceAdjustment": 2.50 }
+            ]
         },
         {
-            "id": 123453,
-            "name": "test 2",
-            "price": 0
+            "name": "Extra Beef Patty",
+            "maxSelect": 1,
+            "choices": [
+                { "name": "Add one beef patty", "priceAdjustment": 8.00 },
+                { "name": "Add two beef patties", "priceAdjustment": 16.00 }
+            ]
         },
         {
-            "id": 123454,
-            "name": "sub 2",
-            "price": 120
-        }],
+            "name": "Extra Cheese",
+            "maxSelect": 1,
+            "choices": [
+                { "name": "Add one cheese", "priceAdjustment": 1.00 },
+                { "name": "Add two cheese", "priceAdjustment": 2.00 }
+            ]
+        },
+        {
+            "name": "Extra Tomato",
+            "maxSelect": 1,
+            "choices": [
+                { "name": "Add one tomato", "priceAdjustment": 8.00 },
+                { "name": "Add two tomatoes", "priceAdjustment": 16.00 }
+            ]
+        }
+    ],
     "variants": [
         {
             "id": 8989,
-            "name": "",
+            "name": "name123 - White (Medium)",
             "price": 199,
             "usualPrice": 199,
-            "image": "https://test.com/imageurl"                                       
+            "image": "https://test.com/imageurl",
+            "options": [
+                { "name": "Color", "choice": "White" },
+                { "name": "Size", "choice": "Medium" }
+            ],
+            "inventory": 999                                  
         }
     ]
 }
