@@ -382,6 +382,15 @@
 | images | A list of product image |
 | description | A list of description for the product, supports HTML formatting. Supports multiple type, e.g. shipping description, size description. | 
 
+### SKU
 
+| Name | Description | 
+|------------|----------| 
+| addOns |  It is used to add some basic elements or products. e.g. product customization |
+| addOns -> maxSelect | Allowed maximum items |
+| addOns -> minSelect | Allowed minimum items |
+| addOns -> choices -> maxSelect | Allowed maximum quantity |
+| variants | The Product resource will have a variant for every possible combination of its options. | 
+| options | The custom product properties. For example, Size, Color, and Material. Product variants are made of up combinations of option values. |
 
  
